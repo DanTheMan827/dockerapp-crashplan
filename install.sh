@@ -52,7 +52,7 @@ RUNLVLDIR=/etc/rc${RUNLEVEL}.d
 JAVACOMMON=$(which java)
 
 # Downloading Crashplan
-wget -nv http://download.code42.com/installs/linux/install/CrashPlan/CrashPlan_4.8.0_Linux.tgz -O - | tar -zx -C /tmp
+wget -nv https://web-lbm-msp.crashplanpro.com/client/installers/CrashPlanPRO_4.9.0_1436674888490_33_Linux.tgz -O - | tar -zx -C /tmp
 
 # Make the destination dirs
 mkdir -p ${TARGETDIR}
